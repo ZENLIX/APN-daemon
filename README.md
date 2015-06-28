@@ -1,7 +1,7 @@
 # APN-daemon
 APN php daemon scripts &amp; tutorial
 
-For generate certeficate:
+For generate cert:
 <pre>
 sudo openssl s_client -connect gateway.sandbox.push.apple.com:2195
 sudo openssl pkcs12 -clcerts -nokeys -out apns-dev-cert.pem -in Certificate.p12
